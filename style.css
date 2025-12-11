@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+    transition: 0.3s;
+}
+
+header {
+    background: #0077ff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile, .about, .skills {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: #0077ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* Темна тема */
+.dark {
+    background: #1d1d1d;
+    color: white;
+}
+
+.dark header {
+    background: black;
+}
+
+.dark section {
+    background: #2e2e2e;
+}
+
+.dark button {
+    background: #444;
+}
